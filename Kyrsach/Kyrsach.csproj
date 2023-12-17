@@ -1,0 +1,105 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="assets\bird1.png" />
+    <None Remove="assets\Button.png" />
+    <None Remove="assets\enemy1.png" />
+    <None Remove="assets\enemy2.png" />
+    <None Remove="assets\enemy3.png" />
+    <None Remove="assets\heal.png" />
+    <None Remove="assets\healmana.png" />
+    <None Remove="assets\health.png" />
+    <None Remove="assets\ikon.png" />
+    <None Remove="assets\level1.tmx" />
+    <None Remove="assets\mana.png" />
+    <None Remove="assets\map.png" />
+    <None Remove="assets\map\interiors.png" />
+    <None Remove="assets\map\Island_24x24.png" />
+    <None Remove="assets\map\level1.png" />
+    <None Remove="assets\map\level1.tmx" />
+    <None Remove="assets\map\level2.png" />
+    <None Remove="assets\map\level2.tmx" />
+    <None Remove="assets\map\level3.png" />
+    <None Remove="assets\map\level3.tmx" />
+    <None Remove="assets\map\level4.png" />
+    <None Remove="assets\map\level4.tmx" />
+    <None Remove="assets\map\preview-top-down-sci-fi.png" />
+    <None Remove="assets\map\Props.png" />
+    <None Remove="assets\map\Tiles-y.png" />
+    <None Remove="assets\map\Tileset with cell size 256x256.png" />
+    <None Remove="assets\map\tileset-top-down-sci-fi.png" />
+    <None Remove="assets\map\yes.png" />
+    <None Remove="assets\map\_0000_Layer-1.png" />
+    <None Remove="assets\mortar.png" />
+    <None Remove="assets\mortarAtack.png" />
+    <None Remove="assets\mortarGoal.png" />
+    <None Remove="assets\preview-top-down-sci-fi.png" />
+    <None Remove="assets\Rock1.png" />
+    <None Remove="assets\Rock2.png" />
+    <None Remove="assets\Rock2ToWall.png" />
+    <None Remove="assets\Rock3.png" />
+    <None Remove="assets\Rock3Bach.png" />
+    <None Remove="assets\tileset-top-down-sci-fi.png" />
+    <None Remove="assets\turel.png" />
+    <None Remove="assets\turel1.png" />
+    <None Remove="assets\weapon1.png" />
+    <None Remove="assets\weapon2.png" />
+    <None Remove="assets\weapon3.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="System.Drawing.Common" Version="7.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="assets\bird1.png" />
+    <Resource Include="assets\Button.png" />
+    <Resource Include="assets\enemy1.png" />
+    <Resource Include="assets\enemy2.png" />
+    <Resource Include="assets\enemy3.png" />
+    <Resource Include="assets\heal.png" />
+    <Resource Include="assets\healmana.png" />
+    <Resource Include="assets\health.png" />
+    <Resource Include="assets\ikon.png" />
+    <Resource Include="assets\mana.png" />
+    <Resource Include="assets\map.png" />
+    <Resource Include="assets\map\interiors.png" />
+    <Resource Include="assets\map\Island_24x24.png" />
+    <Resource Include="assets\map\level1.png" />
+    <Resource Include="assets\map\level1.tmx" />
+    <Resource Include="assets\map\level2.png" />
+    <Resource Include="assets\map\level2.tmx" />
+    <Resource Include="assets\map\level3.png" />
+    <Resource Include="assets\map\level3.tmx" />
+    <Resource Include="assets\map\level4.png" />
+    <Resource Include="assets\map\level4.tmx" />
+    <Resource Include="assets\map\preview-top-down-sci-fi.png" />
+    <Resource Include="assets\map\Props.png" />
+    <Resource Include="assets\map\Tiles-y.png" />
+    <Resource Include="assets\map\Tileset with cell size 256x256.png" />
+    <Resource Include="assets\map\tileset-top-down-sci-fi.png" />
+    <Resource Include="assets\map\yes.png" />
+    <Resource Include="assets\map\_0000_Layer-1.png" />
+    <Resource Include="assets\mortar.png" />
+    <Resource Include="assets\mortarAtack.png" />
+    <Resource Include="assets\mortarGoal.png" />
+    <Resource Include="assets\Rock1.png" />
+    <Resource Include="assets\Rock2.png" />
+    <Resource Include="assets\Rock2ToWall.png" />
+    <Resource Include="assets\Rock3.png" />
+    <Resource Include="assets\Rock3Bach.png" />
+    <Resource Include="assets\turel.png" />
+    <Resource Include="assets\turel1.png" />
+    <Resource Include="assets\weapon1.png" />
+    <Resource Include="assets\weapon2.png" />
+    <Resource Include="assets\weapon3.png" />
+  </ItemGroup>
+
+</Project>

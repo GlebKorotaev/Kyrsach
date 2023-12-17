@@ -1,0 +1,78 @@
+﻿<Page x:Class="Kyrsach.PlayPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:Kyrsach"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="PlayPage">
+
+    <Page.Background>
+        <ImageBrush ImageSource="./assets/map.png" />
+    </Page.Background>
+    <Grid x:Name="myGrid" HorizontalAlignment="Center">
+        <Grid.RowDefinitions>
+            <RowDefinition />
+            <RowDefinition />
+            <RowDefinition />
+            <RowDefinition />
+            <RowDefinition />
+            <RowDefinition />
+            <RowDefinition />
+            <RowDefinition />
+            <RowDefinition />
+            <RowDefinition />
+            <RowDefinition />
+            <RowDefinition />
+            <RowDefinition />
+            <RowDefinition />
+            <RowDefinition />
+            <RowDefinition />
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <Button x:Name="Button1" Grid.Row="1" Grid.RowSpan="2" Grid.Column="3" Click="StartGame" Style="{StaticResource MyButtonStyle}" Margin="10,10,10,10">
+            <Button.Background>
+                <ImageBrush ImageSource =".\\assets/Button.png"  ></ImageBrush>
+            </Button.Background>
+            <Viewbox>
+                <TextBlock Text="Новая игра"/>
+            </Viewbox>
+        </Button>
+        <Button x:Name="Button2" Grid.Row="4" Grid.RowSpan="2" Grid.Column="3" Click="ContinueGame" Style="{StaticResource MyButtonStyle}" Margin="10,10,10,10">
+            <Button.Background>
+                <ImageBrush ImageSource =".\\assets/Button.png"  ></ImageBrush>
+            </Button.Background>
+            <Viewbox>
+                <TextBlock Text="Продолжить"/>
+            </Viewbox>
+        </Button>
+        <Button x:Name="Button3" Grid.Row="7" Grid.RowSpan="2" Grid.Column="3" Click="EndlessGame" Style="{StaticResource MyButtonStyle}" Margin="10,10,10,10">
+            <Button.Background>
+                <ImageBrush ImageSource =".\\assets/Button.png"  ></ImageBrush>
+            </Button.Background>
+            <Viewbox>
+                <TextBlock Text="Бесконечный режим"/>
+            </Viewbox>
+        </Button>
+        <Button x:Name="Button4" Click="Button4_Click" Grid.Row="10" Grid.RowSpan="2" Grid.Column="3" Style="{StaticResource MyButtonStyle}" Margin="10,10,10,10">
+            <Button.Background>
+                <ImageBrush ImageSource =".\\assets/Button.png"  ></ImageBrush>
+            </Button.Background>
+            <Viewbox>
+                <TextBlock Text="Назад"/>
+            </Viewbox>
+        </Button>
+        <Border x:Name="myBorder" Grid.Row="0" Grid.RowSpan="16" Grid.Column="0" Grid.ColumnSpan="6">
+            <Image x:Name="myImage" ></Image>
+        </Border>
+    </Grid>
+
+</Page>
