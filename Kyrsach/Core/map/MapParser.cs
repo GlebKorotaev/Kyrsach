@@ -22,7 +22,7 @@ namespace Kyrsach.Core.map
         public static MapParser GetInstance() { return s_Instance = (s_Instance != null) ? s_Instance : new MapParser(); }
         public bool Load(string name,string sourse) {
            
-             Parse(name, "C:\\Users\\user\\source\\repos\\Kyrsach\\Kyrsach\\assets\\map\\"+sourse);
+             Parse(name, "../../..\\assets\\map\\" + sourse);
             return true;
         }
 
